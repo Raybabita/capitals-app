@@ -1,0 +1,41 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #93c5fd;
+}
+
+.country-and-capital-card {
+  background-color: #f8fafc;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.question {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.selectOption {
+  outline: none;
+  width: 150px;
+  height: 25px;
+}
+.capital {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.country {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
